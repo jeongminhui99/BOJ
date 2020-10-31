@@ -1,5 +1,6 @@
 import sys
 import math
+
 def prime(n):
     m=int(math.sqrt(n))
     if(n<2):
