@@ -1,9 +1,11 @@
 import sys
 import math
+
 def prime(n):
+    m=int(math.sqrt(n))
     if(n<2):
         return False
-    for i in range(2, n) :
+    for i in range(2, m+1) :
         if n%i == 0:
             return False
     return True
